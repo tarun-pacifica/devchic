@@ -18,5 +18,5 @@ development:
   database: devchic
   pool: 5
   host: localhost
-  username: MOOKBOOK13
-  password:
+  username: hui
+  password: password

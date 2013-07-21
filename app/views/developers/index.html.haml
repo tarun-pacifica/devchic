@@ -1,7 +1,10 @@
-%ul#display_dev.no-bullet
-  - @developers.each do |developer|
-    %li
-      %span.name= developer.name
-      %span.language= developer.language
-      %span.chictype= developer.chictype
-      %span=submit_tag 'Edit Developer', :id => 'edit_dev', :class => 'button radius tiny'
+%div.row
+
+	%ul#display_dev.no-bullet
+		- @developers.each do |developer|
+			%li
+				%div.span5
+				%span.name= developer.name
+				%span.language= developer.language
+				%span.chictype= developer.chictype
+				%span=submit_tag 'Edit Developer', :id => 'edit_dev', :class => 'btn btn-primary'
