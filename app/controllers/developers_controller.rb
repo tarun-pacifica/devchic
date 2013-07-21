@@ -1,6 +1,12 @@
 class DevelopersController < ApplicationController
   def index
-    @developers = @auth.developers
+    @developers = Developer.all
+    #@developers = @auth.developers
+    #uncomment when you want to set up the login functions
+  end
+
+  def show
+    @developer = Developer.find(params[:id])
   end
 
   def create

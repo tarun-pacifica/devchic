@@ -16,6 +16,22 @@ $(document).ready(function(){
       })
       return false
 };
-  $('#create_dev').click(create_developer);
+  $('.button').click(create_developer);
+
+//   var edit_developer = function () {
+//     console.log('Woooo');
+//     // $.ajax({
+//     //   url:'/developers/',
+//     //   data: {
+//     //     dev_namekey: $(this).siblings('.name').text(),
+//     //     dev_chictypekey: $(this).siblings('.chictype').text(),
+//     //     dev_languagekey: $(this).siblings('.language').text
+//     //   }
+//     //}
+//   };
+
+// $('#edit_dev').click(console.log());
+
+//   // does it matter which line is on
 
 });
