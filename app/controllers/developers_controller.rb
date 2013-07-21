@@ -4,10 +4,10 @@ class DevelopersController < ApplicationController
   end
 
   def create
-  id = params[:id]
-  name = params[:name]
-  chictype = params[:chictype]
-  language = params[:language]
+    id = params[:id]
+    name = params[:dev_namekey]
+    chictype = params[:dev_chictypekey]
+    language = params[:dev_languagekey]
 
       if id.present?
         developer = Developer.find(id)
@@ -17,7 +17,7 @@ class DevelopersController < ApplicationController
         developer.save
       else
         developer = Developer.create(:name => name, :chictype => chictype, :language => language)
-        @auth.developers << developer
+        #@auth.developers << developer
       end
       render :json => developer
   end

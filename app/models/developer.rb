@@ -11,5 +11,5 @@
 class Developer < ActiveRecord::Base
   attr_accessible :name, :chictype, :language
   belongs_to :user
-  has_many :style #should this be plural or singular?
+  has_many :styles #should this be plural or singular?
 end

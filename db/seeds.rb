@@ -18,11 +18,11 @@ t1 = Developer.create(:name => 'Yehuda Katz', :chictype => 'RubyDev')
 t2 = Developer.create(:name => 'Brendan Eich', :chictype => 'JSBastard')
 t3 = Developer.create(:name => 'Tim Berners-Lee', :chictype => 'WWW')
 
-t1.Style = p1
+t1.style = p1
 t1.save
-t2.Style = p2
+t2.style = p2
 t2.save
-t3.Style = p3
+t3.style = p3
 t3.save
 
-u1.Developers << t1 << t2 << t3
+u1.developers << t1 << t2 << t3

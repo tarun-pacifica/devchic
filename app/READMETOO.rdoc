@@ -16,4 +16,6 @@ Dropdown to READ from existing Developers
 Edit option to UPDATE developers
 DELETE developers
 
-?forms in haml
+? forms in haml, autofocus, placeholder value? DONE
+? talk thru create method in priorities controller
+todo: create developers_styles table (lookup tunr for howto) before seeding again;
