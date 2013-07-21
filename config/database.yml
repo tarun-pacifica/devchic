@@ -15,8 +15,8 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: todo_development
+  database: devchic
   pool: 5
   host: localhost
-  username: smcgillen
+  username: MOOKBOOK13
   password:

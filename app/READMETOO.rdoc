@@ -1,0 +1,19 @@
+DevChic is a website to create a custom developer style.
+
+Version 1.0
+Select from a range of fashion components to assemble a bespoke style.
+Create a new developer archetype and dress them as you see fit.
+Login to view your own items/custom styles.
+
+Version 2.0
+View images that match your fashion style.
+
+LOGIN
+
+INDEX PAGE
+CREATE form to add new Developer
+Dropdown to READ from existing Developers
+Edit option to UPDATE developers
+DELETE developers
+
+?forms in haml
