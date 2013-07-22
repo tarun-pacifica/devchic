@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   var create_developer = function () {
+    console.log('create_dev');
       $.ajax({
         url:
         '/developers',
@@ -14,8 +15,9 @@ $(document).ready(function(){
         type:
          'POST',
       })
-      return false
-};
-// $('#edit_dev').click(console.log());
-//   // does it matter which line is on
+      return false;
+    };
+  $('#create_dev').on('click', create_developer);
+    // event.preventDefault();
+
 });
